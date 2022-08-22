@@ -1,0 +1,21 @@
+{
+	"user.login": {
+		"documentation": {
+			"description": "Authenticates the user.\nReturns a jwt token when success."
+		},
+		"stability":"stable",
+		"visibility":"public",
+		"headers": {
+			"accept":["application/json"],
+			"content_type":["application/json"]
+		},
+		"url": {
+			"paths":[
+				{
+					"path": "/"
+
+				}
+			]
+		}
+	}
+}

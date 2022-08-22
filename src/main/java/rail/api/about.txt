@@ -1,0 +1,21 @@
+/auth
+login  - POST - /rail-api/v1/auth/login
+logout - POST - /rail-api/v1/auth/logout
+
+/user
+register - POST - /rail-api/v1/user/register
+reset    - POST - /rail-api/v1/user/reset-password
+
+update user profile - PATCH  - /rail-api/v1/user/profile
+delete user profile - DELETE - /rail-api/v1/user/profile
+
+book ticket   - POST   - /rail-api/v1/ticket
+cancel ticket - DELETE - /rail-api/v1/ticket
+view ticket   - GET    - /rail-api/v1/ticket
+
+train schedule - GET - /rail-api/v1/train/schedule
+train route    - GET - /rail-api/v1/train/route
+train details  - GET - /rail-api/v1/train
+
+keytool
+keytool -genkeypair -keyalg RSA -alias selfsigned -keystore testkey.jks -storepass password -validity 360 -keysize 2048
